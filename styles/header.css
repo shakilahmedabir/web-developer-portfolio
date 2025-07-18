@@ -1,0 +1,93 @@
+:root {
+  --color-primary-text: #344E41;    /* Dark Green */
+  --color-nav-bg: #3A5A40;          /* Medium Dark Green */
+  --color-accent: #588157;          /* Olive Green */
+  --color-sidebar-bg: #A3B18A;      /* Light Green */
+  --color-main-bg: #DAD7CD;         /* Off-white */
+}
+
+/* shared style */
+.text-primary {
+    color: black;
+}
+
+.dark-2 {
+    color: #006C5B;
+}
+
+.btn-primary {
+    background-color: #588157;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* hearder */
+.header {
+    background-image: url(../images/designer.png), url(../images/glow.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* name Styles */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 0px 0;
+    padding: 0 230px;
+}
+.f {
+    color: #006C5B;
+}
+.a {
+    color: 	#D4AF37;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #344E41;
+}
+
+/* bannar style */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+
+.banner-content {
+    max-width: 580px;
+}
+.banner-title {
+    font-weight: bold;
+    font-size: 85px;
+    color: #006C5B;
+}
+.banner-greetings {
+    font-size: 45px;
+    font-weight: 600;
+    color: black;
+}
+
+.banner-profile-image {
+    width: 580px;
+}

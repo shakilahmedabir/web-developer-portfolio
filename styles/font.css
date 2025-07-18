@@ -1,0 +1,77 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal; /* Equivalent to 400 */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Bold text */
+.open-sans-bold {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold; /* Equivalent to 700 */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Bolder (relative to parent) */
+.open-sans-bolder {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder; /* Inherits and increases */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Lighter (relative to parent) */
+.open-sans-lighter {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: lighter; /* Inherits and decreases */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.lora-<uniquifier> {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* Normal weight (default) */
+.lora-normal {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: normal; /* Equivalent to 400 */
+  font-style: normal;
+}
+
+/* Bold text */
+.lora-bold {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: bold; /* Equivalent to 700 */
+  font-style: normal;
+}
+
+/* Bolder (relative to parent weight) */
+.lora-bolder {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+}
+
+/* Lighter (relative to parent weight) */
+.lora-lighter {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: lighter;
+  font-style: normal;
+}
